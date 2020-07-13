@@ -28,158 +28,113 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.lblDescription = new System.Windows.Forms.Label();
-            this.txtDescription = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
+            this.groupBoxGeneralData = new System.Windows.Forms.GroupBox();
+            this.txtAmount = new System.Windows.Forms.TextBox();
+            this.lblAmunt = new System.Windows.Forms.Label();
+            this.dtpAcquisitionDate = new System.Windows.Forms.DateTimePicker();
+            this.lblAcquisitionDate = new System.Windows.Forms.Label();
+            this.dtpExpirationDate = new System.Windows.Forms.DateTimePicker();
+            this.txtExpirationDate = new System.Windows.Forms.Label();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
-            this.label7 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.label8 = new System.Windows.Forms.Label();
-            this.groupBox1.SuspendLayout();
+            this.txtPrice = new System.Windows.Forms.TextBox();
+            this.lblPrice = new System.Windows.Forms.Label();
+            this.cbbMeasure = new System.Windows.Forms.ComboBox();
+            this.txtObservation = new System.Windows.Forms.TextBox();
+            this.lblObservation = new System.Windows.Forms.Label();
+            this.txtQuantity = new System.Windows.Forms.TextBox();
+            this.lblQuantity = new System.Windows.Forms.Label();
+            this.txtDescription = new System.Windows.Forms.TextBox();
+            this.lblDescription = new System.Windows.Forms.Label();
+            this.pnlAuxDesign = new System.Windows.Forms.Panel();
+            this.groupBoxGeneralData.SuspendLayout();
             this.SuspendLayout();
             // 
-            // groupBox1
+            // groupBoxGeneralData
             // 
-            this.groupBox1.Controls.Add(this.textBox5);
-            this.groupBox1.Controls.Add(this.label8);
-            this.groupBox1.Controls.Add(this.dateTimePicker2);
-            this.groupBox1.Controls.Add(this.label7);
-            this.groupBox1.Controls.Add(this.dateTimePicker1);
-            this.groupBox1.Controls.Add(this.label6);
-            this.groupBox1.Controls.Add(this.textBox4);
-            this.groupBox1.Controls.Add(this.label5);
-            this.groupBox1.Controls.Add(this.textBox2);
-            this.groupBox1.Controls.Add(this.label4);
-            this.groupBox1.Controls.Add(this.comboBox1);
-            this.groupBox1.Controls.Add(this.textBox3);
-            this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Controls.Add(this.textBox1);
-            this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Controls.Add(this.txtDescription);
-            this.groupBox1.Controls.Add(this.lblDescription);
-            this.groupBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.groupBox1.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.ForeColor = System.Drawing.Color.White;
-            this.groupBox1.Location = new System.Drawing.Point(41, 29);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(391, 522);
-            this.groupBox1.TabIndex = 0;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Dados Gerais";
+            this.groupBoxGeneralData.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.groupBoxGeneralData.Controls.Add(this.txtAmount);
+            this.groupBoxGeneralData.Controls.Add(this.lblAmunt);
+            this.groupBoxGeneralData.Controls.Add(this.dtpAcquisitionDate);
+            this.groupBoxGeneralData.Controls.Add(this.lblAcquisitionDate);
+            this.groupBoxGeneralData.Controls.Add(this.dtpExpirationDate);
+            this.groupBoxGeneralData.Controls.Add(this.txtExpirationDate);
+            this.groupBoxGeneralData.Controls.Add(this.textBox4);
+            this.groupBoxGeneralData.Controls.Add(this.label5);
+            this.groupBoxGeneralData.Controls.Add(this.txtPrice);
+            this.groupBoxGeneralData.Controls.Add(this.lblPrice);
+            this.groupBoxGeneralData.Controls.Add(this.cbbMeasure);
+            this.groupBoxGeneralData.Controls.Add(this.txtObservation);
+            this.groupBoxGeneralData.Controls.Add(this.lblObservation);
+            this.groupBoxGeneralData.Controls.Add(this.txtQuantity);
+            this.groupBoxGeneralData.Controls.Add(this.lblQuantity);
+            this.groupBoxGeneralData.Controls.Add(this.txtDescription);
+            this.groupBoxGeneralData.Controls.Add(this.lblDescription);
+            this.groupBoxGeneralData.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.groupBoxGeneralData.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBoxGeneralData.ForeColor = System.Drawing.Color.White;
+            this.groupBoxGeneralData.Location = new System.Drawing.Point(41, 34);
+            this.groupBoxGeneralData.Name = "groupBoxGeneralData";
+            this.groupBoxGeneralData.Size = new System.Drawing.Size(391, 522);
+            this.groupBoxGeneralData.TabIndex = 0;
+            this.groupBoxGeneralData.TabStop = false;
+            this.groupBoxGeneralData.Text = "Dados Gerais";
             // 
-            // lblDescription
+            // txtAmount
             // 
-            this.lblDescription.AutoSize = true;
-            this.lblDescription.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.lblDescription.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDescription.Location = new System.Drawing.Point(6, 49);
-            this.lblDescription.Name = "lblDescription";
-            this.lblDescription.Size = new System.Drawing.Size(64, 16);
-            this.lblDescription.TabIndex = 0;
-            this.lblDescription.Text = "Descrição:";
+            this.txtAmount.Location = new System.Drawing.Point(334, 73);
+            this.txtAmount.Name = "txtAmount";
+            this.txtAmount.Size = new System.Drawing.Size(40, 21);
+            this.txtAmount.TabIndex = 19;
             // 
-            // txtDescription
+            // lblAmunt
             // 
-            this.txtDescription.Location = new System.Drawing.Point(76, 46);
-            this.txtDescription.Name = "txtDescription";
-            this.txtDescription.Size = new System.Drawing.Size(288, 21);
-            this.txtDescription.TabIndex = 1;
+            this.lblAmunt.AutoSize = true;
+            this.lblAmunt.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.lblAmunt.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAmunt.Location = new System.Drawing.Point(269, 76);
+            this.lblAmunt.Name = "lblAmunt";
+            this.lblAmunt.Size = new System.Drawing.Size(59, 16);
+            this.lblAmunt.TabIndex = 18;
+            this.lblAmunt.Text = "Unidade:";
             // 
-            // textBox1
+            // dtpAcquisitionDate
             // 
-            this.textBox1.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox1.Location = new System.Drawing.Point(77, 73);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(56, 21);
-            this.textBox1.TabIndex = 3;
-            this.textBox1.Text = "  Apenas Números";
+            this.dtpAcquisitionDate.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dtpAcquisitionDate.Location = new System.Drawing.Point(121, 303);
+            this.dtpAcquisitionDate.Name = "dtpAcquisitionDate";
+            this.dtpAcquisitionDate.Size = new System.Drawing.Size(95, 21);
+            this.dtpAcquisitionDate.TabIndex = 17;
             // 
-            // label1
+            // lblAcquisitionDate
             // 
-            this.label1.AutoSize = true;
-            this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.label1.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(6, 76);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(63, 16);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "Tamanho:";
+            this.lblAcquisitionDate.AutoSize = true;
+            this.lblAcquisitionDate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.lblAcquisitionDate.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAcquisitionDate.Location = new System.Drawing.Point(5, 303);
+            this.lblAcquisitionDate.Name = "lblAcquisitionDate";
+            this.lblAcquisitionDate.Size = new System.Drawing.Size(112, 16);
+            this.lblAcquisitionDate.TabIndex = 16;
+            this.lblAcquisitionDate.Text = "Data de Aquisição:";
             // 
-            // label2
+            // dtpExpirationDate
             // 
-            this.label2.AutoSize = true;
-            this.label2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.label2.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(240, 303);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(124, 16);
-            this.label2.TabIndex = 4;
-            this.label2.Text = "Unidade de Medida:";
+            this.dtpExpirationDate.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dtpExpirationDate.Location = new System.Drawing.Point(122, 275);
+            this.dtpExpirationDate.Name = "dtpExpirationDate";
+            this.dtpExpirationDate.Size = new System.Drawing.Size(95, 21);
+            this.dtpExpirationDate.TabIndex = 15;
             // 
-            // textBox3
+            // txtExpirationDate
             // 
-            this.textBox3.Location = new System.Drawing.Point(96, 414);
-            this.textBox3.Multiline = true;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(278, 88);
-            this.textBox3.TabIndex = 7;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.label3.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(6, 414);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(84, 16);
-            this.label3.TabIndex = 6;
-            this.label3.Text = "Observações:";
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
-            "Quilograma / kg",
-            "Grama / g",
-            "Miligrama / mg",
-            "Litro / l",
-            "Mililitro / ml"});
-            this.comboBox1.Location = new System.Drawing.Point(136, 73);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 24);
-            this.comboBox1.TabIndex = 8;
-            this.comboBox1.Text = "Quilograma / kg";
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(76, 149);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(181, 21);
-            this.textBox2.TabIndex = 10;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.label4.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(6, 152);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(42, 16);
-            this.label4.TabIndex = 9;
-            this.label4.Text = "Preço:";
+            this.txtExpirationDate.AutoSize = true;
+            this.txtExpirationDate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.txtExpirationDate.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtExpirationDate.Location = new System.Drawing.Point(6, 275);
+            this.txtExpirationDate.Name = "txtExpirationDate";
+            this.txtExpirationDate.Size = new System.Drawing.Size(110, 16);
+            this.txtExpirationDate.TabIndex = 13;
+            this.txtExpirationDate.Text = "Data de Validade:";
             // 
             // textBox4
             // 
@@ -199,98 +154,139 @@
             this.label5.TabIndex = 11;
             this.label5.Text = "Fornecedor:";
             // 
-            // label6
+            // txtPrice
             // 
-            this.label6.AutoSize = true;
-            this.label6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.label6.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(6, 275);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(110, 16);
-            this.label6.TabIndex = 13;
-            this.label6.Text = "Data de Validade:";
+            this.txtPrice.Location = new System.Drawing.Point(76, 149);
+            this.txtPrice.Name = "txtPrice";
+            this.txtPrice.Size = new System.Drawing.Size(60, 21);
+            this.txtPrice.TabIndex = 10;
             // 
-            // dateTimePicker1
+            // lblPrice
             // 
-            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateTimePicker1.Location = new System.Drawing.Point(122, 275);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(95, 21);
-            this.dateTimePicker1.TabIndex = 15;
+            this.lblPrice.AutoSize = true;
+            this.lblPrice.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.lblPrice.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPrice.Location = new System.Drawing.Point(6, 152);
+            this.lblPrice.Name = "lblPrice";
+            this.lblPrice.Size = new System.Drawing.Size(42, 16);
+            this.lblPrice.TabIndex = 9;
+            this.lblPrice.Text = "Preço:";
             // 
-            // dateTimePicker2
+            // cbbMeasure
             // 
-            this.dateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateTimePicker2.Location = new System.Drawing.Point(121, 303);
-            this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(95, 21);
-            this.dateTimePicker2.TabIndex = 17;
+            this.cbbMeasure.FormattingEnabled = true;
+            this.cbbMeasure.Items.AddRange(new object[] {
+            "Quilograma / kg",
+            "Grama / g",
+            "Miligrama / mg",
+            "Litro / l",
+            "Mililitro / ml"});
+            this.cbbMeasure.Location = new System.Drawing.Point(142, 73);
+            this.cbbMeasure.Name = "cbbMeasure";
+            this.cbbMeasure.Size = new System.Drawing.Size(121, 24);
+            this.cbbMeasure.TabIndex = 8;
+            this.cbbMeasure.Text = "Quilograma / kg";
             // 
-            // label7
+            // txtObservation
             // 
-            this.label7.AutoSize = true;
-            this.label7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.label7.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(5, 303);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(112, 16);
-            this.label7.TabIndex = 16;
-            this.label7.Text = "Data de Aquisição:";
+            this.txtObservation.Location = new System.Drawing.Point(96, 414);
+            this.txtObservation.Multiline = true;
+            this.txtObservation.Name = "txtObservation";
+            this.txtObservation.Size = new System.Drawing.Size(278, 88);
+            this.txtObservation.TabIndex = 7;
             // 
-            // textBox5
+            // lblObservation
             // 
-            this.textBox5.Location = new System.Drawing.Point(301, 253);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(40, 21);
-            this.textBox5.TabIndex = 19;
+            this.lblObservation.AutoSize = true;
+            this.lblObservation.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.lblObservation.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblObservation.Location = new System.Drawing.Point(6, 414);
+            this.lblObservation.Name = "lblObservation";
+            this.lblObservation.Size = new System.Drawing.Size(84, 16);
+            this.lblObservation.TabIndex = 6;
+            this.lblObservation.Text = "Observações:";
             // 
-            // label8
+            // txtQuantity
             // 
-            this.label8.AutoSize = true;
-            this.label8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.label8.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(240, 256);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(59, 16);
-            this.label8.TabIndex = 18;
-            this.label8.Text = "Unidade:";
+            this.txtQuantity.ForeColor = System.Drawing.Color.Black;
+            this.txtQuantity.Location = new System.Drawing.Point(84, 73);
+            this.txtQuantity.Name = "txtQuantity";
+            this.txtQuantity.Size = new System.Drawing.Size(52, 21);
+            this.txtQuantity.TabIndex = 3;
+            // 
+            // lblQuantity
+            // 
+            this.lblQuantity.AutoSize = true;
+            this.lblQuantity.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.lblQuantity.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblQuantity.Location = new System.Drawing.Point(6, 76);
+            this.lblQuantity.Name = "lblQuantity";
+            this.lblQuantity.Size = new System.Drawing.Size(80, 16);
+            this.lblQuantity.TabIndex = 2;
+            this.lblQuantity.Text = "Quantidade:";
+            // 
+            // txtDescription
+            // 
+            this.txtDescription.Location = new System.Drawing.Point(76, 46);
+            this.txtDescription.Name = "txtDescription";
+            this.txtDescription.Size = new System.Drawing.Size(298, 21);
+            this.txtDescription.TabIndex = 1;
+            // 
+            // lblDescription
+            // 
+            this.lblDescription.AutoSize = true;
+            this.lblDescription.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.lblDescription.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDescription.Location = new System.Drawing.Point(6, 49);
+            this.lblDescription.Name = "lblDescription";
+            this.lblDescription.Size = new System.Drawing.Size(64, 16);
+            this.lblDescription.TabIndex = 0;
+            this.lblDescription.Text = "Descrição:";
+            // 
+            // pnlAuxDesign
+            // 
+            this.pnlAuxDesign.Location = new System.Drawing.Point(125, 28);
+            this.pnlAuxDesign.Name = "pnlAuxDesign";
+            this.pnlAuxDesign.Size = new System.Drawing.Size(314, 12);
+            this.pnlAuxDesign.TabIndex = 1;
             // 
             // FormProducts
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(58)))), ((int)(((byte)(63)))), ((int)(((byte)(73)))));
             this.ClientSize = new System.Drawing.Size(819, 596);
-            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.pnlAuxDesign);
+            this.Controls.Add(this.groupBoxGeneralData);
             this.Location = new System.Drawing.Point(0, 0);
             this.Name = "FormProducts";
             this.Text = "";
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
+            this.groupBoxGeneralData.ResumeLayout(false);
+            this.groupBoxGeneralData.PerformLayout();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.GroupBox groupBoxGeneralData;
         private System.Windows.Forms.TextBox txtDescription;
         private System.Windows.Forms.Label lblDescription;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.DateTimePicker dateTimePicker2;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.ComboBox cbbMeasure;
+        private System.Windows.Forms.TextBox txtObservation;
+        private System.Windows.Forms.Label lblObservation;
+        private System.Windows.Forms.TextBox txtQuantity;
+        private System.Windows.Forms.Label lblQuantity;
+        private System.Windows.Forms.DateTimePicker dtpAcquisitionDate;
+        private System.Windows.Forms.Label lblAcquisitionDate;
+        private System.Windows.Forms.DateTimePicker dtpExpirationDate;
+        private System.Windows.Forms.Label txtExpirationDate;
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.TextBox txtPrice;
+        private System.Windows.Forms.Label lblPrice;
+        private System.Windows.Forms.TextBox txtAmount;
+        private System.Windows.Forms.Label lblAmunt;
+        private System.Windows.Forms.Panel pnlAuxDesign;
     }
 }

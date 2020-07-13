@@ -21,7 +21,7 @@ namespace confectionery
         private void formMain_Load(object sender, EventArgs e)
         {
             HideButtons(SelectButtons());
-            ShowMenuButtons(-1);
+            ShowMenuButtons("eventFormMainLoad");
         }
         private void btnClose_Click(object sender, EventArgs e)
         {
@@ -30,12 +30,12 @@ namespace confectionery
         private void btnBack_Click(object sender, EventArgs e)
         {
             HideButtons(SelectButtons());
-            ShowMenuButtons(0);
+            ShowMenuButtons("btnBack");
         }
         private void btnProducts_Click(object sender, EventArgs e)
         {
             HideButtons(SelectButtons());
-            ShowMenuButtons(2);
+            ShowMenuButtons("btnProducts");
         }
 
         private void btnNewProduct_Click(object sender, EventArgs e)
@@ -68,22 +68,22 @@ namespace confectionery
             }
         }
 
-        private void ShowMenuButtons(Int32 Position)
+        private void ShowMenuButtons(string btnName)
         {
-            switch (Position)
+            switch (btnName)
             {
-                case -1:
+                case "eventFormMainLoad":
                     btnProducts.Location = btnPosition1.Location;
                     btnProducts.BackColor = btnPosition1.BackColor;
                     btnProducts.Show();
                     break;
 
-                case 0:
+                case "btnBack":
                     btnProducts.Show();
                     this.IsMdiContainer = false;
                     break;
 
-                case 2:
+                case "btnProducts":
                     btnBack.Location = btnPosition0.Location;
                     btnBack.BackColor = btnPosition0.BackColor;
                     btnListProducts.Location = btnProducts.Location;
