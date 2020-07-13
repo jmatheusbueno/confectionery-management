@@ -1,0 +1,11 @@
+C:\Confectionery\confectionery\confectionery\bin\Debug\confectionery.exe.config
+C:\Confectionery\confectionery\confectionery\bin\Debug\confectionery.exe
+C:\Confectionery\confectionery\confectionery\bin\Debug\confectionery.pdb
+C:\Confectionery\confectionery\confectionery\obj\Debug\confectionery.csprojAssemblyReference.cache
+C:\Confectionery\confectionery\confectionery\obj\Debug\confectionery.formMain.resources
+C:\Confectionery\confectionery\confectionery\obj\Debug\confectionery.FormProducts.resources
+C:\Confectionery\confectionery\confectionery\obj\Debug\confectionery.FormVisualBase.resources
+C:\Confectionery\confectionery\confectionery\obj\Debug\confectionery.Properties.Resources.resources
+C:\Confectionery\confectionery\confectionery\obj\Debug\confectionery.csproj.GenerateResource.cache
+C:\Confectionery\confectionery\confectionery\obj\Debug\confectionery.exe
+C:\Confectionery\confectionery\confectionery\obj\Debug\confectionery.pdb

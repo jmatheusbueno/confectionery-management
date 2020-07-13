@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "confectionery", "confectionery\confectionery.csproj", "{99C2F22F-3817-4692-9A9D-7549DDD662FD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Forms", "Forms", "{D2FC88EF-2FD5-4C0A-823D-2C002D46DE92}"
+	ProjectSection(SolutionItems) = preProject
+		confectionery\FormMain.cs = confectionery\FormMain.cs
+		confectionery\FormMain.Designer.cs = confectionery\FormMain.Designer.cs
+		confectionery\FormMain.resx = confectionery\FormMain.resx
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{99C2F22F-3817-4692-9A9D-7549DDD662FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99C2F22F-3817-4692-9A9D-7549DDD662FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99C2F22F-3817-4692-9A9D-7549DDD662FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99C2F22F-3817-4692-9A9D-7549DDD662FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4F56D442-F562-476C-BF1A-A7D6150C1504}
+	EndGlobalSection
+EndGlobal
